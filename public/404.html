@@ -1,67 +1,69 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>The page you were looking for doesn't exist (404)</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <style>
+  <head>
+    <title>The page you were looking for doesn't exist (404)</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <style>
+      .background-404 {
+        background-image: url("4042.avif");
+        background-repeat: no-repeat;
+        height: 100vh;
+        background-size: cover;
+        background-position: bottom;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
 
-.background-404 {
-  background-image: url("4042.avif");
-  background-repeat: no-repeat;
-  height: 100vh;
-  background-size: cover;
-  background-position: bottom;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+      .dialog {
+        font-family: "Nunito", "Helvetica", "sans-serif";
+        font-size: 100%;
+        font-weight: bold;
+        color: #26271f;
+        line-height: 1.5em;
+        width: 95%;
+        max-width: 33em;
+        margin: 4em auto 0;
+      }
 
-  .dialog {
-    font-family: "Nunito", "Helvetica", "sans-serif";
-    font-size: 100%;
-    font-weight: bold;
-    color: #26271F;
-    line-height: 1.5em;
-    width: 95%;
-    max-width: 33em;
-    margin: 4em auto 0;
-  }
+      a {
+        font-family: "Nunito", "Helvetica", "sans-serif";
+        font-size: 90%;
+        font-weight: bold;
+        color: #26271f;
+        line-height: 1.5em;
+        width: 95%;
+        max-width: 33em;
+        margin: 4em auto 0;
+      }
 
-  a {
-    font-family: "Nunito", "Helvetica", "sans-serif";
-    font-size: 90%;
-    font-weight: bold;
-    color: #26271F;
-    line-height: 1.5em;
-    width: 95%;
-    max-width: 33em;
-    margin: 4em auto 0;
-  }
+      .btn {
+        background-color: #26271f;
+        border-radius: 50px;
+        font-style: normal;
+        cursor: pointer;
+        margin: auto;
+        border-style: none;
+        height: 48px;
+        color: #f0ebe5;
+        font-size: 15px;
+        padding: 10px;
+        text-decoration: none;
+      }
+    </style>
+  </head>
 
-  .btn {
-  background-color: #26271F;
-	border-radius: 50px;
-  font-style: normal;
-	cursor: pointer;
-	margin: auto;
-  border-style: none;
-  height: 48px;
-  color: #F0EBE5;
-	font-size: 15px;
-	padding: 10px;
-  text-decoration: none;
-  }
-  </style>
-</head>
-
-<body class="background-404">
-  <!-- This file lives in public/404.html -->
-  <div class="dialog">
-    <div>
-      <h1>Oops, wrong turn...</h1>
-      <p>Looks like you've wandered off the local path. We're working on getting you back on track.</p>
+  <body class="background-404">
+    <!-- This file lives in public/404.html -->
+    <div class="dialog">
+      <div>
+        <h1>Oops, wrong turn...</h1>
+        <p>
+          Looks like you've wandered off the local path. We're working on
+          getting you back on track.
+        </p>
+      </div>
+      <a href="https://locally-c15a43060fc8.herokuapp.com/" class="btn">Home</a>
     </div>
-    <a href="https://www.golocally.me/" class="btn">Home</a>
-  </div>
-</body>
+  </body>
 </html>

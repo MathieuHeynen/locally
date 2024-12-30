@@ -155,7 +155,7 @@ avatar_lucy_williams = URI.open("https://images.unsplash.com/photo-1530785602389
 avatar_miguel_garcia = URI.open("https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww")
 avatar_guillaume = URI.open("https://avatars.githubusercontent.com/u/166691058?v=4")
 avatar_luk = URI.open("https://res.cloudinary.com/wagon/image/upload/c_fill,g_face,h_200,w_200/v1713302532/jxs9twp0kbtmkk73nwbt.jpg")
-avatar_mathieu = URI.open("https://media.licdn.com/dms/image/C4E03AQHo2YkZrhIaJA/profile-displayphoto-shrink_400_400/0/1517020425940?e=1723680000&v=beta&t=OpiA8kepa2tQ2Eqsatm8muKwgNqVVJhRpBrWFmkON1g")
+avatar_mathieu = URI.open("https://avatars.githubusercontent.com/u/165482716?v=4")
 avatar_aika = URI.open("https://avatars.githubusercontent.com/u/108080915?v=4")
 avatar_pedro = URI.open("https://ca.slack-edge.com/T02NE0241-U01BPJHM02Y-9b833d9f20d1-512")
 avatar_bruna = URI.open("https://avatars.githubusercontent.com/u/162796074?v=4")
