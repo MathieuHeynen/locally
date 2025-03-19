@@ -1,9 +1,8 @@
-
 .card-locallers {
   overflow: hidden;
   height: 135px;
-  background: #F0EBE5;
-  color: #26271F;
+  background: #f0ebe5;
+  color: #26271f;
   padding: 2px;
   margin-top: 15px;
   border-radius: 5px;
@@ -14,23 +13,27 @@
   }
 
   p {
-    color: #26271F;
+    color: #26271f;
     font-size: 12px;
-    margin-bottom: 0px;
+    margin-bottom: 4px;
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 2; /* Limit to 3 lines */
     -webkit-box-orient: vertical;
+    padding: 0;
   }
 
   .my-button {
-    color: #26271F;
+    font-size: 10px;
+    color: #26271f;
     display: inline-flex;
     align-items: center;
-    padding: 0;
+    padding-left: 6px;
+    padding-right: 6px;
     margin: 0;
     height: auto;
     font-weight: semibold;
+    border: solid #26271f 1px;
   }
 
   .avatar-card {
@@ -45,7 +48,6 @@
     margin: 10px;
   }
 }
-
 
 a {
   text-decoration: none;
